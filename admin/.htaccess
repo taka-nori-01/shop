@@ -1,0 +1,6 @@
+AuthUserfile C:\xampp/.htpasswd
+AuthGroupfile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
+

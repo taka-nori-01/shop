@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body{
+	margin-left:20px;
+}
+
+.ib {
+	display:inline-block;
+}
+.th0, .th1, .th2, .td0, .td1, .td2 {
+	display:inline-block;
+	padding-bottom:5px;
+}
+.th0, .th1, .th2 {
+	text-align:center;
+	font-weight:bold;
+}
+.th0, .td0 {
+	width:4em;
+}
+.th1, .td1 {
+	width:11em;
+}
+
+li{ list-style-type: none;
+ display: block;
+}
+.kensaku{
+	display: flex;
+}
+
+.kensaku p{
+	margin-right: 5px;
+}
+
+table.meisai{
+	border: 1px solid #999;
+	border-collapse: collapse;
+}
+table.meisai th{background: #ded;
+	border: 1px solid #999;
+}
+table.meisai td{
+	border-right: 1px dashed #aaa;
+	border-bottom: 1px solid #aaa;
+	padding :2px 5px;
+}
+table.meisai td[colspan="3"],
+table.meisai td:not(:nth-child(2)){
+	text-align: right;
+}
+.total{
+	margin: 12px 0 0;
+}
+.total p{
+	border-bottom: 1px solid;
+	display: inline-block;
+	font-weight: 600;
+}

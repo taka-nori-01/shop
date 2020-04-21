@@ -1,0 +1,72 @@
+body{
+	background-color: white;
+	background-image: url(../image/logo.png);
+	background-size: 70px 70px;
+	background-repeat: repeat-y;
+	padding-left: 70px;
+}
+
+
+.product{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-info{
+  margin-bottom: 50px;
+  width: 25%;
+}
+
+.product-info img{
+  width: 90%;
+}
+.product-info p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+/* メニュー */
+nav a{
+  margin-right: 10px;
+}
+
+.customer-name{
+  position: absolute; 
+  right: 0; 
+  padding-right: 1em;
+}
+
+svg {
+  height: 20px;
+  width: 20px;
+}
+
+/* プライバシーポリシー */
+.contents__section dt{
+  font-weight: bold;
+}
+.contents__section dd{
+  margin-bottom: 20px;
+}
+
+/* 特定商取引法に基づく表記 */
+.section__title-h2 {
+  margin: 0;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #ddd;
+  background: url(https://img.shop-pro.jp/tmpl_img/81/spacer.png) no-repeat;
+}
+
+
+/* フッター */
+footer{
+  height: 50px;
+	padding: 10px;
+  background: #ccc;
+  margin: 0;
+}
+
